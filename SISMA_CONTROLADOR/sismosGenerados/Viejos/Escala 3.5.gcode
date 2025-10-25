@@ -1,0 +1,8 @@
+; Generado por Generador G-CODES SISMOS de SISMA
+; Fecha y hora: 2025-10-08 20:28:26.293613
+$H
+$120 = 500
+G0 X110.0 F5000
+G91
+G4 P1
+$120 = 4000.0
