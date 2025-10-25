@@ -1,6 +1,6 @@
-# 🌍 SISMA: Simulador Interactivo de Sismos para Maquetas y Análisis
+#  SISMA: Simulador Interactivo de Sismos para Maquetas y Análisis
 
-## ✨ Resumen Ejecutivo del Proyecto
+##  Resumen Ejecutivo del Proyecto
 
 SISMA (Simulador Interactivo de Sismos para Maquetas y Análisis) surge como la respuesta a una de las problemáticas fundamentales en la arquitectura y la ingeniería civil: **la estabilidad de las estructuras ante fenómenos sísmicos**. El proyecto plantea una solución innovadora para la **prueba y el análisis a escala** de diseños estructurales frente a dichos eventos naturales.
 
@@ -13,7 +13,7 @@ El simulador está diseñado para **reproducir movimientos sísmicos reales** en
 
 ***
 
-## 🎯 Impacto y Valor Educativo
+##  Impacto y Valor Educativo
 
 SISMA trasciende la mera simulación; es una **herramienta educativa** fundamental:
 
@@ -35,17 +35,20 @@ SISMA trasciende la mera simulación; es una **herramienta educativa** fundament
 
 Este repositorio alberga el código fuente necesario para el funcionamiento completo de SISMA, segmentado en tres áreas principales:
 
-1.  **⚙️ Código Original del GRBL (Modificado):**
+1.  ** Código Original del GRBL (Modificado):**
     * Incluye el **firmware GRBL** con las modificaciones específicas requeridas para la **adaptación** y el control de movimiento del prototipo de SISMA.
 
-2.  **⚡ Código de Sensado MPU6050:**
+2.  ** Código de Sensado MPU6050:**
     * Contiene el código optimizado para la lectura y el procesamiento de datos del sensor **MPU6050** (Giroscopio y Acelerómetro), vital para el análisis del movimiento de la maqueta.
 
-3.  **🖥️ Código Fuente de Interfaz y Control:**
+3.  ** Código Fuente de Interfaz y Control:**
     * Comprende el código de la **interfaz de usuario** utilizada para el control del simulador y la **generación de sismos en formato GCODE**.
+
+4. ** Planos y piezas:**
+    * Contiene todas las piezas del prototipo con sus respectivos planos y modelos en .STEP, STL o como proyecto de FreeCad para su posterior modificación, fabricación y montaje**.
 
 ***
 
-## 🛠️ Instalación y Uso
-
-*(Añade aquí las instrucciones detalladas para la compilación, carga del firmware GRBL y la ejecución de la interfaz.)*
+##  Instalación y Uso
+Para el uso de este repositorio es necesario cargar el firmaware del GRBL en un **ESP32** con su respectivo **SHIELD SISMA**. Luego deben descargarse e instalarse los controladores del prototipo que contienen tanto la ejecución como generación de sismos mediante G-CODE.
+Por último para el montaje del prototipo deben fabricarse/imprimirse todas las piezas y seguir correctamente el montaje como lo indica la documentación presente en actual repositorio.
