@@ -3,7 +3,9 @@ Codigo fuente del proyecto SISMA (Simulador Interactivo de Sismos para Maquetas 
 
 Incluye:
 *Codigo original del GRBL con las modificaciones necesarias para la adaptacion al prototipo de SISMA´*
+
 *Codigo de sensado basado en el sensor MPU6050 (Giroscopio y acelerometro)´*
+
 *Codigo fuente de interfaz de control y generación de Sismos en formato GCODE´*
 
 
